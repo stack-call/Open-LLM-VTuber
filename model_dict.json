@@ -26,5 +26,33 @@
                 "": 1
             }
         }
+    },
+    {
+    "name": "hiyori-pro",
+    "description": "桃濑日和 (Hiyori Momose) 专业版模型",
+    "url": "/live2d-models/hiyori_pro_zh/runtime/hiyori_pro_t11.model3.json",
+    "kScale": 0.45,
+    "initialXshift": 0,
+    "initialYshift": 0,
+    "idleMotionGroupName": "Idle", 
+    "defaultEmotion": "exp_default",
+    "emotionMap": {
+        "neutral": "exp_default",
+        "anger": "exp_angry",
+        "joy": "exp_happy",
+        "smirk": "exp_smile",
+        "sadness": "exp_sad",
+        "surprise": "exp_surprised"
+    },
+    "tapMotions": {
+        "Body": { 
+            "Tap": 40,
+            "Tap@Body": 60,
+            "Flick": 20,
+            "FlickDown": 20,
+            "FlickUp": 20,
+            "Flick@Body": 20
+        }
     }
+}
 ]
